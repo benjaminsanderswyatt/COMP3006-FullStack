@@ -1,1 +1,1 @@
-# -Comp-3000---Full-Stack
+# COMP3006-FullStack
