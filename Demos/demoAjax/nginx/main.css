@@ -1,4 +1,18 @@
 body {
 	font-size: 120%;
-	background-color: lightseagreen;
+	background-color: lightgray;
 }
+
+tbody {
+	font-size: 32px;
+}
+
+th {
+	background-color: blue;
+}
+
+table {
+	background-color: black;
+	width: 100%;
+}
+
