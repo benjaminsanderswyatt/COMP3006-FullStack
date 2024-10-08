@@ -3,12 +3,28 @@ body {
 	background-color: lightgray;
 }
 
-th {
-	background-color: blue;
+table {
+	background-color: black;
+	width: 100%;
+	border-collapse: collapse;
 }
 
-table {
-	background-color: grey;
-	width: 100%;
+th {
+	background-color: blue;
+	color: white;
+}
+
+td {
+	color: white;
+	width: 20%;
+	padding: 5px;
+}
+
+td:nth-child(1) {
+	color: yellow;
+}
+
+td:nth-child(2) {
+	width: 60%;
 }
 
