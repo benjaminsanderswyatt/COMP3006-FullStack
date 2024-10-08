@@ -2,7 +2,7 @@ services:
  web:
   image: node:22
   volumes:
-   - ./app:/usr/src/app
+   - ./app-backend:/usr/src/app
   ports:
    - "82:9000"
   command: sh -c "
@@ -12,6 +12,6 @@ services:
  frontend:
   image: nginx
   volumes:
-   - ./nginx:/usr/share/nginx/html:ro
+   - ./app-frontend:/usr/share/nginx/html:ro
   ports:
    - "81:80"
